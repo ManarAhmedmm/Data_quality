@@ -1,0 +1,66 @@
+{
+  "missing_values": [
+    {
+      "question": "What are missing values?",
+      "answer": "Missing values are the absent or unrecorded data in a dataset."
+    },
+    {
+      "question": "Why do missing values occur?",
+      "answer": "Missing values can occur due to errors in data collection, system failures, or non-responses in surveys."
+    },
+    {
+      "question": "What are the methods to handle missing values?",
+      "answer": "1. Drop rows or columns with missing values.\n2. Use the mean to fill missing numerical values.\n3. Use the median if the data contains outliers.\n4. Use the mode for filling categorical data.\n5. Apply predictive modeling to estimate missing values."
+    },
+    {
+      "question": "How do missing values affect the model?",
+      "answer": "Missing values can lead to inaccurate results, reduced model performance, or biases in the analysis."
+    },
+    {
+      "question": "What tools can be used to handle missing values in Python?",
+      "answer": "Tools like Pandas (e.g., `fillna`, `dropna`) and Scikit-learn's `SimpleImputer` can be used to handle missing values."
+    },
+    {
+      "question": "How do you identify missing values in a dataset?",
+      "answer": "You can use methods like `isnull()` or `info()` in Python to identify missing values in a dataset."
+    },
+    {
+      "question": "What is the difference between MCAR, MAR, and MNAR in missing data?",
+      "answer": "1. MCAR: Missing Completely at Random - no systematic pattern.\n2. MAR: Missing at Random - missingness depends on observed data.\n3. MNAR: Missing Not at Random - missingness depends on unobserved data."
+    }
+  ],
+  "outliers": [
+    {
+      "question": "What are outliers?",
+      "answer": "Outliers are data points that deviate significantly from the rest of the data."
+    },
+    {
+      "question": "Why do outliers occur?",
+      "answer": "Outliers can occur due to errors in data collection, unusual events, or variability in the data."
+    },
+    {
+      "question": "How can you detect outliers?",
+      "answer": "1. Use the Interquartile Range (IQR) method.\n2. Use the Z-Score method.\n3. Use visualization techniques like box plots or scatter plots."
+    },
+    {
+      "question": "What is the impact of outliers on data analysis?",
+      "answer": "Outliers can skew statistical measures, affect model accuracy, and lead to incorrect conclusions."
+    },
+    {
+      "question": "How can you handle outliers?",
+      "answer": "1. Remove outliers from the dataset.\n2. Cap or floor the outliers within a specific range.\n3. Transform data using techniques like logarithmic scaling."
+    },
+    {
+      "question": "What tools can be used to detect and handle outliers in Python?",
+      "answer": "Tools like Pandas, NumPy, Scikit-learn, and visualization libraries such as Matplotlib and Seaborn can be used."
+    },
+    {
+      "question": "What are the common statistical measures to detect outliers?",
+      "answer": "1. Standard deviation.\n2. Percentiles.\n3. IQR and Z-Scores."
+    },
+    {
+      "question": "What are some real-world examples of outliers?",
+      "answer": "1. Abnormally high sales during a holiday season.\n2. Unusually low temperatures in a dataset of weather data."
+    }
+  ]
+}
